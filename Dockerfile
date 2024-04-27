@@ -29,7 +29,7 @@
 
 FROM ubuntu:focal
 
-ARG PYGEOAPI_GITREPO=https://github.com/geopython/pygeoapi.git
+ARG PYGEOAPI_GITREPO=https://github.com/adanb13/pygeoapi.git#cache
 
 ENV BASEDIR=/data/web/msc-pygeoapi-nightly
 
